@@ -18,9 +18,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/dragonYang200/go-nvml/pkg/nvml"
 	"log"
-
-	"github.com/NVIDIA/go-nvml/pkg/nvml"
 )
 
 func main() {
