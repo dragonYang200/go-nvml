@@ -18,7 +18,7 @@
 package nvml
 
 /*
-#cgo LDFLAGS: -Wl,--unresolved-symbols=ignore-in-object-files
+#cgo LDFLAGS: -Wl,--unresolved-symbols=ignore-all
 #cgo CFLAGS: -DNVML_NO_UNVERSIONED_FUNC_DEFS=1
 #include "nvml.h"
 #include <stdlib.h>
